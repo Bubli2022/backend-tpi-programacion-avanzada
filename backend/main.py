@@ -10,7 +10,7 @@ import requests
 # Cargar variables del archivo .env
 load_dotenv()
 
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("WEATHER_API_KEY")
 
 app = FastAPI()
 
